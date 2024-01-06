@@ -211,6 +211,7 @@ p{
 }
 footer{
     background: #FFF8F3;
+    padding: 130px 0;
 }
 .footer-column-container{
     display: flex;
@@ -218,7 +219,6 @@ footer{
     justify-content: space-between;
     max-width: 1140px;
     margin: 0 auto;
-    padding-top: 130px;
 }
 .footer-column{
     max-width: 562px;
@@ -237,7 +237,6 @@ form{
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 130px 0;
 }
 input{
     max-width: 461px;
