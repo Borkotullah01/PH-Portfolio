@@ -168,3 +168,45 @@ p{
 }
 
 /* What I do section style */
+
+/* resume section */
+.resume-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+.resume-container{
+    display: flex;
+    margin-top: 113px;
+    gap: 24px;
+}
+.resume-column-title{
+    color: #474747  ;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600; 
+    padding: 10px 0;  
+}
+.resume-item-des{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.btn-center{
+    text-align: center;
+    margin: 50px auto 113px;
+}
+/* resume section */
