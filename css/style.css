@@ -40,9 +40,6 @@ nav > ul{
     display: flex;
     align-items: center;
 }
-nav li{
-
-}
 li a{
     display: block;
     color: #474747;
@@ -109,5 +106,29 @@ p{
     font-family: Open Sans;
     font-size: 18px;
     font-weight: 400; 
+    padding: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575; 
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.info-des{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
 /* About section styles start *
