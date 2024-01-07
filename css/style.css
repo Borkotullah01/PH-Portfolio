@@ -49,12 +49,10 @@ li a{
     padding: 18px 36px;
 }
 header{
-    width: 100%;
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png);
-    background-size: 50%;
+    background-image: url("../images/header_bg.png"),url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 .banner{
     padding: 30px 30px 0 220px;
@@ -209,51 +207,52 @@ p{
     text-align: center;
     margin: 50px auto 113px;
 }
+/* resume section */
+
+/* footer section  */
+
 footer{
-    background: #FFF8F3;
-    padding: 130px 0;
-}
-.footer-column-container{
     display: flex;
-    gap: 24px;
     justify-content: space-between;
-    max-width: 1140px;
-    margin: 0 auto;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
 }
 .footer-column{
-    max-width: 562px;
+    width: 50%;
 }
-.ft{
-    text-align: left;
-}
-.footer-link > ul{
-    display: flex;
-}
-.footer-link > ul li a{
-    padding: 0;
-    margin-right: 24px;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
-input{
-    max-width: 461px;
-    height: 64px;
-    margin-bottom: 24px;
-    padding: 18px 30px;
+.contact input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
     border-radius: 5px;
+    background: #FFF;
     border: none;
+    width: 100%;
 }
-input:first-child{
-    margin-top: 24px;
+.social-links ul{
+    display: flex;
 }
-textarea {
-    max-width: 461px;
-    max-height: 180px;
-    margin-bottom: 24px; 
-    padding: 18px 30px; 
-    border: none;
+.social-links a{
+    display: block;
+    margin-right: 25px;
+    padding: 0;
 }
-/* resume section */
+.social-links a img{
+    width: 25px;
+    height: 25px;
+}
+.footer-title{
+    text-align: left;
+    margin-bottom: 28px;
+}
+.footer-des{
+    width: 562px;
+    text-align: left;
+    margin: 30px 0;
+    padding: 0;
+}
+/* footer section  */
